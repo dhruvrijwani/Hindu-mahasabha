@@ -17,16 +17,15 @@ export default function Leadership() {
           {/* Savarkar - Featured/Large Profile */}
           <SectionReveal className="bg-white rounded-xl shadow-md overflow-hidden border border-primary-100 hover:shadow-lg transition-shadow">
             <div className="grid grid-cols-1 lg:grid-cols-12">
-              <div className="lg:col-span-4 bg-saffron-50 relative flex flex-col items-center justify-center border-b lg:border-b-0 lg:border-r border-saffron-100 py-16">
-                <div className="w-48 h-48 rounded-full border-4 border-white shadow-xl flex items-center justify-center bg-saffron-100 z-10 mb-8 relative">
-                   <User className="w-24 h-24 text-saffron-400" />
+              <div className="lg:col-span-4 bg-saffron-50 relative flex flex-col items-center border-b lg:border-b-0 lg:border-r border-gray-300 py-12 p-4">
+                <div className="w-full aspect-[3/4] mb-8 relative border-4 border-white shadow-md mx-6">
+                   <img src="https://images.unsplash.com/photo-1544928147-79a2dbc1f389?q=80&w=800&auto=format&fit=crop" alt="Savarkar Archival Portrait" className="w-full h-full object-cover filter grayscale sepia-[0.3]" />
                 </div>
-                <div className="text-center px-4 relative z-10">
-                   <h2 className="text-3xl font-display font-bold mb-2 text-navy-900">Vinayak Damodar<br/>Savarkar</h2>
-                   <p className="text-lg text-saffron-700 font-medium font-serif italic mb-4">President (1937 onwards)</p>
-                   <p className="text-sm text-navy-800 uppercase tracking-wider font-bold">Author of Hindutva doctrine</p>
+                <div className="text-center px-4 relative z-10 w-full bg-white p-4 border border-saffron-200">
+                   <h2 className="text-2xl font-display font-medium mb-1 text-navy-900 border-b border-gray-200 pb-2">Vinayak Damodar<br/>Savarkar</h2>
+                   <p className="text-sm text-saffron-700 font-serif italic mt-2">President (1937 onwards)</p>
+                   <p className="text-xs text-navy-800 uppercase tracking-wider font-bold mt-1">Author of Hindutva doctrine</p>
                 </div>
-                <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/old-wall.png')] opacity-20"></div>
               </div>
 
               <div className="lg:col-span-8 p-10 md:p-16 flex flex-col justify-center bg-white">
@@ -55,12 +54,9 @@ export default function Leadership() {
             
             {/* Malaviya */}
             <SectionReveal className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden border border-primary-100 flex flex-col h-full">
-               <div className="aspect-[3/2] bg-saffron-50 flex flex-col items-center justify-center p-12 border-b border-saffron-100 relative overflow-hidden">
-                 <div className="w-32 h-32 rounded-full border-4 border-white shadow-md flex items-center justify-center bg-white z-10 mb-4">
-                   <User className="w-16 h-16 text-saffron-300" />
-                 </div>
-                 <div className="text-center relative z-10">
-                    <p className="tracking-widest font-bold text-[10px] text-saffron-500 uppercase">Archival Profile</p>
+               <div className="aspect-[3/4] bg-saffron-50 flex flex-col items-center justify-center p-6 border-b border-gray-300 relative overflow-hidden">
+                 <div className="w-full h-full border-4 border-white shadow-md relative z-10">
+                   <img src="https://images.unsplash.com/photo-1507675971448-f222035eb5ee?q=80&w=800&auto=format&fit=crop" alt="Historical profile" className="w-full h-full object-cover filter grayscale sepia-[0.3]" />
                  </div>
                </div>
                <div className="p-8 md:p-10 flex-grow flex flex-col">
@@ -80,12 +76,9 @@ export default function Leadership() {
 
             {/* Mukherjee */}
             <SectionReveal className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden border border-primary-100 flex flex-col h-full">
-               <div className="aspect-[3/2] bg-saffron-50 flex flex-col items-center justify-center p-12 border-b border-saffron-100 relative overflow-hidden">
-                 <div className="w-32 h-32 rounded-full border-4 border-white shadow-md flex items-center justify-center bg-white z-10 mb-4">
-                   <User className="w-16 h-16 text-saffron-300" />
-                 </div>
-                 <div className="text-center relative z-10">
-                    <p className="tracking-widest font-bold text-[10px] text-saffron-500 uppercase">Archival Profile</p>
+               <div className="aspect-[3/4] bg-saffron-50 flex flex-col items-center justify-center p-6 border-b border-gray-300 relative overflow-hidden">
+                 <div className="w-full h-full border-4 border-white shadow-md relative z-10">
+                   <img src="https://images.unsplash.com/photo-1517598024396-46c53fb391a1?q=80&w=800&auto=format&fit=crop" alt="Historical profile" className="w-full h-full object-cover filter grayscale sepia-[0.3]" />
                  </div>
                </div>
                <div className="p-8 md:p-10 flex-grow flex flex-col">

@@ -6,6 +6,17 @@ import SectionReveal from '../components/SectionReveal';
 import SubtleBackground from '../components/SubtleBackground';
 
 export default function Home() {
+  const historyItems = [
+    {
+      image: "https://images.unsplash.com/photo-1540448160087-0b182d3cdcd4?q=80&w=1000&auto=format&fit=crop",
+      caption: "Early meetings of the Mahasabha"
+    },
+    {
+      image: "https://images.unsplash.com/photo-1627918360481-2da8b75fefd7?q=80&w=1000&auto=format&fit=crop",
+      caption: "Public address during colonial era"
+    }
+  ];
+
   return (
     <div className="w-full">
       {/* 1. Hero Banner */}
@@ -20,8 +31,8 @@ export default function Home() {
           transition={{ duration: 1 }}
           className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-navy-900"
         >
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-display font-bold leading-tight mb-6 drop-shadow-sm text-navy-900">
-            Akhil Bharatiya <br className="hidden md:block" /> Hindu Mahasabha
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-display font-medium leading-tight mb-6 drop-shadow-sm text-navy-900 border-b-2 border-navy-900 pb-4 inline-block">
+            Hindu Mahasabha
           </h1>
           <p className="text-xl md:text-2xl font-light text-navy-800 max-w-3xl mx-auto mb-10">
             One of India's oldest political and socio-cultural organisations — founded to preserve Hindu identity, promote national unity, and uphold cultural heritage.
@@ -78,10 +89,20 @@ export default function Home() {
         <SectionReveal>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+              <div className="lg:col-span-12 relative flex flex-col md:flex-row gap-8 mb-12">
+                <div className="w-full md:w-1/2 aspect-video bg-gray-200">
+                  <img src={historyItems[0].image} alt="Historical gathering" className="w-full h-full object-cover filter grayscale sepia-[0.3] contrast-125" />
+                  <p className="text-xs text-center mt-2 font-serif italic text-gray-500">{historyItems[0].caption}</p>
+                </div>
+                <div className="w-full md:w-1/2 aspect-video bg-gray-200">
+                  <img src={historyItems[1].image} alt="Public address" className="w-full h-full object-cover filter grayscale sepia-[0.3] contrast-125" />
+                  <p className="text-xs text-center mt-2 font-serif italic text-gray-500">{historyItems[1].caption}</p>
+                </div>
+              </div>
               <div className="lg:col-span-5 relative">
-                 <Quote className="w-24 h-24 text-saffron-200 absolute -top-8 -left-8 -z-10" />
-                 <blockquote className="text-2xl md:text-3xl font-display font-medium leading-snug text-navy-900 border-l-4 border-saffron-500 pl-6 py-2">
-                   The Akhil Bharatiya Hindu Mahasabha stands as one of the oldest political and socio-cultural organisations in modern Indian history.
+                 <Quote className="w-24 h-24 text-gray-200 absolute -top-8 -left-8 -z-10" />
+                 <blockquote className="text-2xl md:text-3xl font-display font-medium leading-snug text-navy-900 border-l-4 border-gray-900 pl-6 py-2">
+                   The Hindu Mahasabha stands as one of the oldest political and socio-cultural organisations in modern Indian history.
                  </blockquote>
               </div>
               <div className="lg:col-span-1"></div>
@@ -123,13 +144,17 @@ export default function Home() {
                     Read Our History
                     <ChevronRight className="w-5 h-5 ml-1 transform group-hover:translate-x-1 transition-transform" />
                   </Link>
+                  <Link to="/join" className="inline-flex items-center text-navy-900 border-b border-navy-900 font-serif font-bold hover:text-gray-600 transition-colors group mt-4">
+                    Join the Mahasabha Today
+                    <ChevronRight className="w-5 h-5 ml-1 transform group-hover:translate-x-1 transition-transform" />
+                  </Link>
                 </div>
               </div>
               <div className="lg:w-1/2 order-1 lg:order-2 w-full">
-                <div className="aspect-[4/3] bg-saffron-50 rounded-lg overflow-hidden shadow-sm border border-saffron-100 flex items-center justify-center text-saffron-300 relative">
-                  <SubtleBackground />
-                  <div className="text-center p-6 relative z-10">
-                    <Landmark className="w-16 h-16 mx-auto mb-2 opacity-60 text-saffron-500" />
+                <div className="aspect-[4/3] bg-saffron-50 rounded-sm overflow-hidden border border-gray-300 flex items-center justify-center text-saffron-300 relative">
+                  <img src="https://images.unsplash.com/photo-1549495393-2ceaf8053677?q=80&w=1000&auto=format&fit=crop" alt="Historical documents" className="w-full h-full object-cover filter grayscale sepia-[0.3]" />
+                  <div className="absolute bottom-0 left-0 bg-white/90 p-2 text-xs font-serif text-navy-900 border-t border-r border-gray-300">
+                    Archival Records
                   </div>
                 </div>
               </div>

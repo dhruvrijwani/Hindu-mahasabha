@@ -7,7 +7,7 @@ import { motion } from 'motion/react';
 export default function History() {
   const timelineEvents = [
     { year: "1909", event: "Morley-Minto Reforms introduce separate electorates for Muslims." },
-    { year: "1915", event: "Akhil Bharatiya Hindu Mahasabha formally established under Madan Mohan Malaviya." },
+    { year: "1915", event: "Hindu Mahasabha formally established under Madan Mohan Malaviya." },
     { year: "1920s", event: "Growing ideological divergence from the Indian National Congress." },
     { year: "1937", event: "Veer Savarkar becomes President of the Hindu Mahasabha." },
     { year: "1940s", event: "Mahasabha firmly opposes partition of India." },
@@ -43,7 +43,7 @@ export default function History() {
                     The late nineteenth century saw India's political landscape being reshaped by colonial policies and communal reorganisation. The Morley-Minto Reforms of 1909 introduced separate electorates for Muslims, deepening the communalisation of Indian politics.
                   </p>
                   <p>
-                    As Muslim political organisations grew in influence, Hindu leaders recognised the need for organised political representation. In 1915, the Akhil Bharatiya Hindu Mahasabha formally emerged under the leadership of Madan Mohan Malaviya — not as a rival to the Indian National Congress, but initially as a complementary pressure group advocating Hindu interests within the nationalist framework.
+                    As Muslim political organisations grew in influence, Hindu leaders recognised the need for organised political representation. In 1915, the Hindu Mahasabha formally emerged under the leadership of Madan Mohan Malaviya — not as a rival to the Indian National Congress, but initially as a complementary pressure group advocating Hindu interests within the nationalist framework.
                   </p>
                   <p>
                     In its early years, the organisation cooperated with the Congress on many aspects of the freedom struggle. Several leaders, including Malaviya himself, held positions in both organisations simultaneously.
@@ -113,6 +113,10 @@ export default function History() {
              {/* Vertical Timeline Column */}
              <div className="lg:col-span-4 relative pl-4 lg:pl-10 lg:border-l-2 lg:border-gray-100 mt-16 lg:mt-0">
                <div className="sticky top-28">
+                 <div className="mb-10 p-2 bg-saffron-50 border border-gray-300 shadow-sm rounded-sm">
+                   <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=800&auto=format&fit=crop" alt="Historical proceedings" className="w-full h-auto aspect-square object-cover filter grayscale sepia-[0.3]" />
+                   <p className="text-center font-serif text-xs italic text-gray-600 mt-3 pb-2">Historical chronicles and newspaper clippings</p>
+                 </div>
                   <h3 className="text-2xl font-display font-bold mb-8 text-navy-900 flex items-center">
                     <Clock className="mr-3 text-saffron-500" />
                     Historical Timeline
@@ -147,7 +151,7 @@ export default function History() {
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-1 bg-saffron-500"></div>
         <SectionReveal className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Landmark className="w-16 h-16 mx-auto text-saffron-400 mb-8 opacity-80" />
-          <h2 className="text-3xl md:text-5xl font-display font-bold mb-8">An Ideology That Outlasted Its Electoral Fortunes</h2>
+          <h2 className="text-3xl md:text-5xl font-display font-bold mb-8 font-serif">An Ideology That Outlasted Its Electoral Fortunes</h2>
           <div className="space-y-6 text-xl font-light text-gray-700 leading-relaxed text-left md:text-center">
             <p>
               The legacy of the Hindu Mahasabha is measured not by electoral results, but by the depth of its ideological contributions to Indian political thought.

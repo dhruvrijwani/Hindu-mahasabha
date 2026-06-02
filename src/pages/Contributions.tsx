@@ -74,6 +74,10 @@ export default function Contributions() {
 
       <section className="py-20 bg-primary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+           <div className="mb-16 border-b-4 border-gray-900 pb-2">
+             <img src="https://images.unsplash.com/photo-1533035353720-f1c6a75cd8ab?q=80&w=1200&auto=format&fit=crop" alt="Historical gathering" className="w-full aspect-[21/9] object-cover filter grayscale sepia-[0.3] mb-4" />
+             <p className="text-right text-xs font-serif italic text-gray-500">Archival photograph of early institutional gatherings</p>
+           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
              {contributions.map((item, idx) => (
                 <SectionReveal key={idx} delay={idx * 0.1}>

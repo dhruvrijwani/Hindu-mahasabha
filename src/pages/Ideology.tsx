@@ -24,7 +24,7 @@ export default function Ideology() {
       <section className="py-20 bg-white">
         <SectionReveal className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl md:text-4xl font-display font-bold text-navy-900 mb-6">Core Ideological Principles</h2>
+            <h2 className="text-3xl md:text-4xl font-display font-bold text-navy-900 mb-6 font-serif">Core Ideological Principles</h2>
             <p className="text-lg text-gray-600">The ideology of the Hindu Mahasabha rested on several inter-connected principles.</p>
           </div>
 
@@ -45,9 +45,9 @@ export default function Ideology() {
         <SectionReveal className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
             <div>
-              <h2 className="text-3xl font-display font-bold text-navy-900 mb-2">Hindutva:</h2>
-              <h3 className="text-2xl font-light text-saffron-700 mb-6">The Intellectual Foundation</h3>
-              <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
+              <h2 className="text-3xl font-display font-bold text-navy-900 mb-2 font-serif border-b border-gray-300 pb-2 inline-block">Hindutva:</h2>
+              <h3 className="text-2xl font-light text-saffron-700 mb-6 mt-4">The Intellectual Foundation</h3>
+              <div className="space-y-4 text-gray-700 text-lg leading-relaxed mb-8">
                 <p>
                   The most enduring ideological contribution of the Hindu Mahasabha came through Vinayak Damodar Savarkar's doctrine of Hindutva — a concept that went far beyond religious identity.
                 </p>
@@ -57,10 +57,8 @@ export default function Ideology() {
                 <p>
                   Savarkar maintained that communities whose sacred geography lay outside India could not share the same depth of civilizational attachment to the Indian nation. This argument formed the basis for the political vision of a culturally Hindu India.
                 </p>
-                <p>
-                  Hindutva became the intellectual cornerstone of Hindu nationalist politics and has remained a subject of scholarly discussion, political debate, and ideological inspiration ever since.
-                </p>
               </div>
+              <img src="https://images.unsplash.com/photo-1560946261-26ecb0542ab3?q=80&w=800&auto=format&fit=crop" className="w-full h-48 object-cover rounded-sm border border-gray-300 filter grayscale sepia-[0.2]" alt="Vintage book" />
             </div>
 
             <div className="relative">

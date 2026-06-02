@@ -8,7 +8,7 @@ export default function About() {
     <div className="w-full relative">
       <PageHeader 
         title="About Us" 
-        subtitle="Provide a clear institutional overview of the Akhil Bharatiya Hindu Mahasabha."
+        subtitle="Provide a clear institutional overview of the Hindu Mahasabha."
       />
 
       {/* Overview & Context */}
@@ -17,10 +17,10 @@ export default function About() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
             
             <div>
-              <h2 className="text-3xl font-display font-bold text-navy-900 mb-6">About the Akhil Bharatiya Hindu Mahasabha</h2>
+              <h2 className="text-3xl font-display font-bold text-navy-900 mb-6 font-serif">About the Hindu Mahasabha</h2>
               <div className="space-y-4 text-gray-700 text-lg leading-relaxed border-l-4 border-saffron-300 pl-6 bg-saffron-50 p-6 rounded-r-lg">
                 <p>
-                  The Akhil Bharatiya Hindu Mahasabha, commonly known as the Hindu Mahasabha, is one of the oldest political and socio-cultural organisations in modern Indian history. Founded during the British colonial period, it emerged as an organised platform for the protection of Hindu political, social, and cultural interests.
+                  The Hindu Mahasabha is one of the oldest political and socio-cultural organisations in modern Indian history. Founded during the British colonial period, it emerged as an organised platform for the protection of Hindu political, social, and cultural interests.
                 </p>
                 <p>
                   The organisation is registered as a political party in India, maintains national, state, and local committees, and continues to engage in public discourse on issues related to Hindu cultural identity, national unity, and social concerns.
@@ -32,7 +32,7 @@ export default function About() {
             </div>
 
             <div>
-              <h2 className="text-3xl font-display font-bold text-navy-900 mb-6">Founding Context</h2>
+              <h2 className="text-3xl font-display font-bold text-navy-900 mb-6 font-serif">Founding Context</h2>
               <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
                 <p>
                   The roots of the Hindu Mahasabha lie in the late nineteenth and early twentieth centuries — a period of profound political awakening across India under British colonial rule. Multiple socio-religious reform movements were emerging among various communities, and Hindu leaders increasingly felt the need for an organised political voice.
@@ -53,8 +53,8 @@ export default function About() {
       <section className="py-20 bg-primary-50 border-y border-primary-100">
         <SectionReveal className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl md:text-4xl font-display font-bold text-navy-900 mb-6">Organisational Structure</h2>
-            <p className="text-lg text-gray-600">The Hindu Mahasabha has historically operated through a multi-tiered national structure, holding meetings, conferences, religious events, and public campaigns related to Hindu social and political affairs.</p>
+            <h2 className="text-3xl md:text-4xl font-display font-bold text-navy-900 mb-6 font-serif">Organisational Structure</h2>
+            <p className="text-lg text-gray-600 font-sans">The Hindu Mahasabha has historically operated through a multi-tiered national structure, holding meetings, conferences, religious events, and public campaigns related to Hindu social and political affairs.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -89,8 +89,8 @@ export default function About() {
           <SectionReveal className="grid grid-cols-1 lg:grid-cols-12 gap-16 item-start">
             
             <div className="lg:col-span-7">
-              <h2 className="text-3xl font-display font-bold text-navy-900 mb-8 border-b-2 border-saffron-500 pb-4 inline-block">Mission & Objectives</h2>
-              <p className="text-lg text-gray-700 mb-8">The Akhil Bharatiya Hindu Mahasabha has historically pursued the following core objectives:</p>
+              <h2 className="text-3xl font-display font-bold text-navy-900 mb-8 border-b-2 border-saffron-500 pb-4 inline-block font-serif">Mission & Objectives</h2>
+              <p className="text-lg text-gray-700 mb-8 font-sans">The Hindu Mahasabha has historically pursued the following core objectives:</p>
               
               <ul className="space-y-6">
                 {[

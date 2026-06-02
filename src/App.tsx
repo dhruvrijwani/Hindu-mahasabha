@@ -6,6 +6,7 @@ import History from './pages/History';
 import Ideology from './pages/Ideology';
 import Leadership from './pages/Leadership';
 import Contributions from './pages/Contributions';
+import Join from './pages/Join';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="ideology" element={<Ideology />} />
           <Route path="leadership" element={<Leadership />} />
           <Route path="contributions" element={<Contributions />} />
+          <Route path="join" element={<Join />} />
         </Route>
       </Routes>
     </BrowserRouter>
